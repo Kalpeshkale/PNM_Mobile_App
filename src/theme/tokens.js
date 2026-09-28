@@ -1,0 +1,65 @@
+export const seedUsers = {
+  operator: {
+    empId: 101,
+    name: 'Amarjit Chaudhary',
+    role: 'Site Operator',
+    roleId: 10,
+    operatorId: 42,
+    site: 'Rohan Riviera Site',
+    photoPath: '',
+  },
+  incharge: {
+    empId: 102,
+    name: 'Satish Kumar',
+    role: 'Site Incharge',
+    roleId: 12,
+    operatorId: 0,
+    site: 'Rohan Riviera Site',
+    photoPath: '',
+  }
+};
+
+export const seedEquipment = [
+  {
+    id: 'RBPL-FTC-0005',
+    label: 'Fixed Tower Crane (RBPL-FTC-0005)',
+    type: 'TOWER CRANE - FIXED',
+    makeModel: 'ZOOMLION / ZOOMLION T7020',
+    site: 'Kohinoor Plaza 2 - RBIPL',
+    operator: 'Amarjit Chaudhary',
+    hmr: 5517,
+    kmr: 0,
+    unit: 'HMR',
+    fuel: 62,
+    status: 'idle',
+    since: 'Yesterday 07:22 PM',
+  },
+  {
+    id: 'JSWMHR-TM-003',
+    label: 'Transit Mixer (JSWMHR-TM-003)',
+    type: 'TRANSIT MIXER',
+    makeModel: 'SCHWING STETTER / AM7SH',
+    site: 'Rohan Riviera Site',
+    operator: 'Amarjit Chaudhary',
+    hmr: 1204,
+    kmr: 24500,
+    unit: 'KMR',
+    fuel: 85,
+    status: 'working',
+    since: 'Today 08:30 AM',
+  },
+  {
+    id: 'RBPL-EXC-0012',
+    label: 'Excavator (RBPL-EXC-0012)',
+    type: 'EXCAVATOR',
+    makeModel: 'TATA HITACHI / EX200',
+    site: 'Rohan Riviera Site',
+    operator: 'Rajesh Patil',
+    hmr: 3412,
+    kmr: 0,
+    unit: 'HMR',
+    fuel: 45,
+    status: 'maintenance',
+    since: 'Yesterday 04:15 PM',
+  }
+];
